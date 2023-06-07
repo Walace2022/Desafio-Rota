@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Divisão de Conta</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <a href="../../index.html">Home</a>
+        <ul>
+          <li><a href="../Conversor/index.html">Conversor</a></li>
+          <li><a href="../Jogo/index.html">Jogo da vida</a></li>
+          <li><a href="../Calculadora/index.html">Calculadora de Pedidos</a></li>
+        </ul>
+    </nav>
+</header>
+  <main>
+
+    <h1>Calculadora de Divisão de Conta</h1>
+    <form id="form">
+      <table>
+        <tr>
+          <th>Produto</th>
+          <th>Preço</th>
+          <th>Clientes</th>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="Pizza" name="produto"></td>
+          <td><input type="number" placeholder="25,50" name="preco"></td>
+          <td><input type="text" placeholder="Joao, Maria" name="clientes"></td>
+        </tr>
+        <tr>
+          <td colspan="3"><button id="add" type="button">Adicionar Produto</button></td>
+        </tr>
+      </table>
+      <button id="calc" type="button">Calcular Divisão</button>
+    </form>
+    
+    <div id="resultado"></div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
